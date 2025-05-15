@@ -1,0 +1,18 @@
+{
+    "dataFolder":"./",
+    "1Layer": {
+        "epochs": 1000,
+        "weights": [2.5, 1.0, 1.0, 3.0]
+    },
+    "2Layer": {
+        "epochs": 1000,
+        "weights": [2.5, 1.0, 1.0, 3.0],
+        "noNeurons": 64
+    },
+    "3Layer": {
+        "epochs": 1000,
+        "weights": [2.5, 1.0, 1.0, 3.0],
+        "noNeurons1": 256,
+        "noNeurons2": 64
+    }
+}
