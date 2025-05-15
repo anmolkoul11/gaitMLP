@@ -1,6 +1,6 @@
 # Gait Recognition Project 1
 
-In this project, we are building an MLP using hand-crafted features. Your goal will be recognition of human gait while walking on hard and soft terrains, and climbing up and down stairs. The input to your models will be hand-crafted features from IMU devices.
+In this project, we are building an MLP using hand-crafted features. Our goal is to recognize human gait while walking on hard and soft terrains, and climbing up and down stairs. The input to our models are hand-crafted features from IMU devices.
 
 ## Data Context
 
@@ -15,7 +15,7 @@ Here is a brief description of the data files:
   - ".y.v" files contain the labels. (0) indicates standing or walking in solid ground, (1) indicates going down the stairs, (2) indicates going up the stairs, and (3) indicates walking on grass.
   - ".y.t" files contain the time stamps for the labels. The units are in seconds and the sampling rates is 10 Hz.
 
-The dataset contents multiple sessions some of which are coming from the same subject. We have renamed all these sessions to trials so you cannot identify the origin of the session. The training folder contains the data files for all the trials considered for training. The data set is imbalanced and we have used SMOTE technique to solve this issue in this project.
+The dataset contents multiple sessions some of which are coming from the same subject. The training folder contains the data files for all the trials considered for training. The data set is imbalanced and we have used SMOTE technique to solve the imbalance issue for this project.
 
 - `ProjC1.1 - EDA.ipynb` - Performs some exploratory analysis on the data.
 - `ProjC1.2 - Baseline RF.ipynb` - It trains a simple Random Forest model for classification using the hand-crafted features. We report the results using the validation set.
